@@ -1,5 +1,3 @@
-
-const mySecret = process.env['REACT_APP_BASIC_CLIENT_ID']
 # Playlist Builder
 
 Generates a list of 10 recommended songs, based on a suggested artist.
