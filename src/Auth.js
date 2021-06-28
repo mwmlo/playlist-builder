@@ -3,8 +3,8 @@ import qs from 'qs';
 
 export const Auth = async () => {
 
-    const clientId = process.env.REACT_APP_BASIC_CLIENT_ID;
-    const clientSecret = process.env.REACT_APP_BASIC_CLIENT_SECRET;
+    const clientId = process.env['REACT_APP_BASIC_CLIENT_ID'];
+    const clientSecret = process.env['REACT_APP_BASIC_CLIENT_SECRET'];
 
     const headers = {
         headers: {
